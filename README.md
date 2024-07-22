@@ -5,6 +5,7 @@
 ####Faculty: Engineering and applied sciences.
 ####Degree: Information systems engineering.
 #Confirmación de Compra de Boletos de Cine
+
 ## Características
 
 - Selección de película desde un menú desplegable.
