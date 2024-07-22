@@ -31,5 +31,10 @@
 
 ## Images
 
-![Imagen 1](https://github.com/user-attachments/assets/d6e1c513-5601-4348-af43-e61af345a4b2)
-![Imagen 2](https://github.com/user-attachments/assets/e6c43258-173f-4a64-b510-3134e55e6afc)
+![Imagen 1](https://github.com/user-attachments/assets/1132289f-8704-48c2-9d3e-4170e13b8cf6)
+
+![Imagen 2](https://github.com/user-attachments/assets/bca6caaf-f142-482e-aebb-5db716560232)
+
+![image](https://github.com/user-attachments/assets/5d5c0170-4278-4acd-a2a8-b5dfd158c307)
+
+
