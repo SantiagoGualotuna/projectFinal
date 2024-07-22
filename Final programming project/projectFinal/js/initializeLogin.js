@@ -17,10 +17,10 @@ function initializeLogin() {
             document.getElementById('ticketBackground').style.display = 'flex';
         } else if (!storedPassword) {
             localStorage.setItem(username, password);
-            document.getElementById('loginMessage').textContent = 'Usuario registrado.';
+            document.getElementById('loginMessage').textContent = 'User registered.';
             document.getElementById('loginMessage').style.color = 'green';
         } else {
-            document.getElementById('loginMessage').textContent = 'Usuario o contraseña incorrectos';
+            document.getElementById('loginMessage').textContent = 'Incorrect username or password';
             document.getElementById('loginMessage').style.color = 'red';
         }
     });
