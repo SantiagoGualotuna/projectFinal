@@ -1,6 +1,5 @@
-// Función para generar y descargar el PDF usando jsPDF
 document.getElementById('downloadPdfButton').addEventListener('click', function() {
-    const { jsPDF } = window.jspdf; // Acceso a jsPDF desde la ventana global
+    const { jsPDF } = window.jspdf; // Access jsPDF from the global window
 
     const movieSelect = document.getElementById('movie');
     const selectedMovie = movieSelect.options[movieSelect.selectedIndex];
@@ -14,13 +13,13 @@ document.getElementById('downloadPdfButton').addEventListener('click', function(
     const doc = new jsPDF();
 
     doc.setFontSize(16);
-    doc.text('Confirmación de Compra', 10, 10);
+    doc.text('Purchase Confirmation', 10, 10);
 
     doc.setFontSize(12);
-    doc.text(`Película: ${movieTitle}`, 10, 20);
-    doc.text(`Boletos: ${ticketCount}`, 10, 30);
-    doc.text(`Asientos: ${selectedSeats.join(', ')}`, 10, 40);
-    doc.text(`Total a pagar: $${totalPrice.toFixed(2)}`, 10, 50);
+    doc.text(`Movie: ${movieTitle}`, 10, 20);
+    doc.text(`Tickets: ${ticketCount}`, 10, 30);
+    doc.text(`Seats: ${selectedSeats.join(', ')}`, 10, 40);
+    doc.text(`Total Price: $${totalPrice.toFixed(2)}`, 10, 50);
 
-    doc.save('confirmacion_compra.pdf');
+    doc.save('purchase_confirmation.pdf');
 });
