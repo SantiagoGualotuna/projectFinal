@@ -19,7 +19,7 @@ function initializeSeats() {
                         selectedSeats.add(seatId);
                         seat.classList.add('selected');
                     } else {
-                        alert('Ya has seleccionado la cantidad de boletos especificada');
+                        alert('You have already selected the specified number of tickets');
                     }
                 }
             });
