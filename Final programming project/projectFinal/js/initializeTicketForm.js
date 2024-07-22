@@ -12,13 +12,12 @@ function initializeTicketForm() {
         const totalPrice = pricePerTicket * ticketCount;
 
         document.getElementById('result').innerHTML = `
-            <p>Película: ${movieTitle}</p>
-            <p>Boletos: ${ticketCount}</p>
-            <p>Asientos: ${selectedSeats.join(', ')}</p>
-            <p>Total a pagar: $${totalPrice.toFixed(2)}</p>
+            <p>Movie: ${movieTitle}</p>
+            <p>Tickets: ${ticketCount}</p>
+            <p>Seats: ${selectedSeats.join(', ')}</p>
+            <p>Total Price: $${totalPrice.toFixed(2)}</p>
         `;
 
-        // Mostrar el botón para descargar PDF
         document.getElementById('downloadPdfButton').style.display = 'block';
     });
 }
