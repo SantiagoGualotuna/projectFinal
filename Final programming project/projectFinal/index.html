@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Venta de Boletos de Cine</title>
+    <link href="css/base.css" rel="stylesheet"/>
+    <link href="css/login.css" rel="stylesheet"/>
+    <link href="css/ticket.css" rel="stylesheet"/>
+    <link href="css/components.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="login-background" id="loginBackground">
+        <div class="container" id="loginContainer">
+            <h1>Iniciar Sesión</h1>
+            <form id="loginForm">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <input type="submit" value="Iniciar sesión">
+            </form>
+            <div id="loginMessage"></div>
+        </div>
+    </div>
+    
+    <div class="ticket-background" id="ticketBackground" style="display: none;">
+        <div class="container" id="ticketContainer">
+            <h2>Venta de Boletos de Cine</h2>
+            <form id="ticketForm">
+                <label for="movie">Por favor seleccione una película:</label>
+                <select name="movie" id="movie" required>
+                    <option value="" disabled selected>Elegir la película</option>
+                    <option value="Avengers END GAME" data-price="10.0">Avengers END GAME - $10.0</option>
+                    <option value="Iron Man 3" data-price="20.0">Iron Man 3 - $20.0</option>
+                    <option value="Thor 3" data-price="5.0">Thor 3 - $5.0</option>
+                    <option value="Angry birds 2" data-price="6.0">Angry birds 2 - $6.00</option>
+                    <option value="Rápidos y Furiosos 8" data-price="7.0">Rápidos y Furiosos 8 - $7.00</option>
+                    <option value="Kung Fu Panda 2" data-price="5.0">Kung Fu Panda 2 - $5.00</option>
+                    <option value="Los Pitufos 2" data-price="9.0">Los Pitufos 2 - $9.00</option>
+                    <option value="Deadpool 3" data-price="3.0">Deadpool 3 - $3.00</option>
+                    <option value="El Planeta De Los Simios" data-price="8.0">El Planeta De Los Simios - $8.00</option>
+                </select>
+                <label for="tickets">Cantidad de boletos:</label>
+                <input type="number" id="tickets" name="tickets" min="1" required>
+                <div class="seating-chart" id="seatingChart">
+                    <!-- Se generarán dinámicamente los asientos -->
+                </div>
+                <input type="submit" value="Comprar">
+            </form>
+            <div id="result" class="result"></div>
+            <button id="downloadPdfButton">Descargar PDF</button>
+            <button id="logoutButton">Cerrar sesión</button>
+        </div>
+    </div>
+    
+    <!-- Bibliotecas jsPDF y html2pdf.js antes de main.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.5.3/html2pdf.bundle.min.js"></script>
+    
+    <!-- Archivos JavaScript -->
+    <script src="js/initializeLogin.js"></script>
+    <script src="js/initializeSeats.js"></script>
+    <script src="js/initializeTicketForm.js"></script>
+    <script src="js/initializeLogout.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/generatePdf.js"></script>
+</body>
+</html>
