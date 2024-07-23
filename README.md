@@ -88,26 +88,6 @@
 
 # Methods Used
 
-* `document.getElementById()`: Gets an element by its ID.
-
-* `addEventListener()`: Adds an event to an element.
-
-* `event.preventDefault()`: Prevents the default action of the event.
-
-* `parseInt()`: Converts a string to an integer.
-
-* `parseFloat()`: Converts a string to a floating-point number.
-
-* `Array.from()`: Creates a new Array instance from an iterable object.
-
-* `classList.add()`: Adds a class to an element.
-
-* `classList.remove()`: Removes a class from an element.
-
-* `textContent`: Sets or returns the text content of a node.
-
-* `innerHTML`: Sets or returns the HTML content of an element.
-
 * `style.display`: Changes the value of an element's display property.
 
 * `localStorage.getItem()`: Gets an item from local storage.
@@ -123,8 +103,6 @@
 * `doc.save()`: Saves the PDF document with a specified file name.
 
 * `createElement()`: Creates a new HTML element.
-
-* `appendChild()`: Adds a new node as a child of the specified node.
 
 * `join()`: Joins all elements of an array into a string.
 
