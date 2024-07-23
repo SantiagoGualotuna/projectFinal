@@ -30,7 +30,7 @@
 3. Select the desired seats.
 4. Click the "Download Confirmation" button to generate and download the PDF with the purchase details.
 
-## Functional Requirements
+# Functional Requirements
 
 **Movie Selection**:
 - The user must be able to select a movie from a dropdown menu.
@@ -54,7 +54,7 @@
 **PDF Download**:
 - The user must be able to download the generated PDF with the purchase details.
 
-## Non-Functional requirements
+# Non-Functional requirements
 
 ## Style and Design
 
