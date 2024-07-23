@@ -53,6 +53,37 @@
 **PDF Download**:
 - The user must be able to download the generated PDF with the purchase details.
 
+## Style and Design
+
+**Description:** Ensures a consistent and visually appealing appearance throughout the website. The CSS styles applied across different files guarantee a pleasant visual experience and an intuitive user interface.
+
+**Files Involved:** `base.css`, `components.css`, `login.css`, `ticket.css`
+
+## Interactivity and Usability
+
+**Description:** Interactivity and usability are crucial for effective user interaction with the website. JavaScript scripts ensure that elements such as buttons and seats respond appropriately to user actions, enhancing the overall user experience.
+
+**Files Involved:** `components.css`, `initializeseats.js`, `initializeticketform.js`
+
+## Error Handling
+
+**Description:** Error handling mechanisms provide immediate feedback to the user when an issue occurs, such as an occupied seat or a communication error with the server. This improves the reliability and transparency of the application.
+
+**Files Involved:** `initializeseats.js`, `initializeticketform.js`
+
+## Security
+
+**Description:** User data security and prevention of unauthorized access are crucial. This includes the secure handling of login credentials and protection of transaction data.
+
+**Files Involved:** `initializelogin.js`, `initializelogout.js`
+
+## Compatibility
+
+**Description:** Ensuring that the website is compatible with different browsers and devices is crucial for a good user experience. CSS styles and JavaScript scripts should work correctly across all modern browsers and mobile devices.
+
+**Files Involved:** `base.css`, `components.css`, `login.css`, `ticket.css`, `initializelogin.js`, `initializelogout.js`, `initializeseats.js`, `initializeticketform.js`, `generatepdf.js`
+
+
 
 ## Images
 
