@@ -4,6 +4,7 @@
 #### Subject: Programming 1
 #### Faculty: Engineering and Applied Sciences
 #### Degree: Information Systems Engineering
+#### Semester: First semester
 
 # Movie Ticket Purchase Confirmation
 
