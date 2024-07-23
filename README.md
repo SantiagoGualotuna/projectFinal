@@ -45,36 +45,13 @@
 
 **PDF Generation**:
 - The system must generate a PDF that includes:
-  - Movie title.
-  - Number of tickets.
-  - Selected seats.
-  - Total price.
+- Movie title.
+- Number of tickets.
+- Selected seats.
+- Total price.
 
 **PDF Download**:
 - The user must be able to download the generated PDF with the purchase details.
-
-## Non-Functional Requirements
-
-**Usability**:
-- The interface must be intuitive and easy to use, allowing the user to complete the selection and purchase process without complications.
-
-**Performance**:
-- The generation and download of the PDF must be fast and should not cause noticeable delays in the user experience.
-
-**Compatibility**:
-- The application must be compatible with major web browsers (Chrome, Firefox, Safari, Edge).
-
-**Security**:
-- The data entered by the user, such as movie selection, number of tickets, and seats, must be handled securely and should not be accessible to unauthorized users.
-
-**Maintainability**:
-- The code must be well-documented and structured to facilitate future modifications and improvements.
-
-**Scalability**:
-- The application must be able to handle an increase in the number of users without compromising performance.
-
-**Portability**:
-- The application must be deployable in different environments (development, testing, production) without requiring significant changes to the code.
 
 
 ## Images
