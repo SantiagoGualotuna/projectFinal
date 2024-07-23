@@ -53,6 +53,8 @@
 **PDF Download**:
 - The user must be able to download the generated PDF with the purchase details.
 
+## Non-Functional requirements
+
 ## Style and Design
 
 - **Description:** Ensures a consistent and visually appealing appearance throughout the website. The CSS styles applied across different files guarantee a pleasant visual experience and an intuitive user interface.
